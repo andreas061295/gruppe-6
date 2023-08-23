@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: lightgray;
+    padding: 20px;
+    box-shadow: 2px 5px 10px;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 20%;
+    gap: 2rem;
+}
+
+nav button {
+    background-color: lightgray;
+    padding: 15px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 2px 5px 10px;
+}

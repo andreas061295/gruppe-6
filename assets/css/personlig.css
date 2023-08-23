@@ -1,15 +1,41 @@
-header{
-    background-color: lightgrey;
+body {
+    margin: 0;
+    padding: 0;
 }
-footer{
-    background-color: lightgrey;
+
+header {
+    background-color: lightgray;
     padding: 20px;
+    box-shadow: 2px 5px 10px;
 }
-a{
-    background-color: grey;
-    border-radius: 20px;
+
+header h1 {
+    text-align: center;
+    font-size: 3rem;
 }
+
+p {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
 img{
     margin-left: 50%;
     transform: translateX(-50%);
+}
+
+footer {
+    padding: 15px;
+    background-color: lightgray;
+}
+
+footer a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border-radius: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
 }
