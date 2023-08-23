@@ -3,4 +3,9 @@ header{
 }
 footer{
     background-color: lightgrey;
+    padding: 20px;
+}
+a{
+    background-color: grey;
+    border-radius: 20px;
 }
